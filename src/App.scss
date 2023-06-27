@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.layout {
+    width: 500px;
+    margin: 50px auto 0px;
+    border: 1px solid #b2c4d5;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fbfbf8;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .close-button {
+        border: none;
+        background-color: #f90000;
+        color: #fff;
+        padding: 0 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .add-button {
+        border: none;
+        background-color: #007000;
+        color: #fff;
+        padding: 0 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0ed;
+    margin-bottom: 15px;
+    padding: 10px;
+
+    .delete-button {
+        border: none;
+        color: #f90000;
+        font-weight: bold;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.addTask-container {
+    .form-group {
+        input {
+            outline: none;
+            width: 100%;
+            padding: 6px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .check-form {
+        display: flex;
+        input {
+            margin-left: 200px;
+        }
+    }
+
+    .save-button {
+        width: 100%;
+        margin: 10px 0px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        padding: 10px 0px;
+        border-radius: 5px;
+        margin: 20px 0px;
+        cursor: pointer;
+    }
+}
+
+.isReminder {
+    border-left: 5px solid green;
+}
